@@ -1,0 +1,1449 @@
+ // case 2:
+    //   return (
+    //     <>
+    //       <table>
+    //         <tr>
+    //           <th>
+    //             <center>
+    //               Research Papers Published in Journals with Impact Factor
+    //               during June 2020 to May 2024 (Article ScoreAuthorship
+    //               Position)
+    //             </center>
+    //           </th>
+    //         </tr>
+    //         <tr>
+    //           <th></th>
+    //           <th>Name of Journal</th>
+    //           <th>Imapct Factor</th>
+    //           <th>DOI Link</th>
+    //           <th>Points</th>
+    //         </tr>
+    //         <tr>
+    //           <th rowspan="6">Single Author(Only Sathyabama Affiliation)</th>
+    //         </tr>
+    //         <tr>
+    //           <td>
+    //             <input width="100%" type="text-area" />
+    //           </td>
+    //           <td>
+    //             <input width="100%" type="number" value="0.0" />
+    //           </td>
+    //           <td>
+    //             <input type="link" />
+    //           </td>
+    //           <td>
+    //             <input width="100%" type="number" value="0.0" />
+    //           </td>
+    //         </tr>
+    //         <tr>
+    //           <td>
+    //             <input width="100%" type="text-area" />
+    //           </td>
+    //           <td>
+    //             <input width="100%" type="number" value="0.0" />
+    //           </td>
+    //           <td>
+    //             <input type="link" />
+    //           </td>
+    //           <td>
+    //             <input width="100%" type="number" value="0.0" />
+    //           </td>
+    //         </tr>
+    //         <tr>
+    //           <td>
+    //             <input width="100%" type="text-area" />
+    //           </td>
+    //           <td>
+    //             <input width="100%" type="number" value="0.0" />
+    //           </td>
+    //           <td>
+    //             <input type="link" />
+    //           </td>
+    //           <td>
+    //             <input width="100%" type="number" value="0.0" />
+    //           </td>
+    //         </tr>
+    //         <tr>
+    //           <td>
+    //             <input width="100%" type="text-area" />
+    //           </td>
+    //           <td>
+    //             <input width="100%" type="number" value="0.0" />
+    //           </td>
+    //           <td>
+    //             <input type="link" />
+    //           </td>
+    //           <td>
+    //             <input width="100%" type="number" value="0.0" />
+    //           </td>
+    //         </tr>
+    //         <tr>
+    //           <td>
+    //             <input width="100%" type="text-area" />
+    //           </td>
+    //           <td>
+    //             <input width="100%" type="number" value="0.0" />
+    //           </td>
+    //           <td>
+    //             <input type="link" />
+    //           </td>
+    //           <td>
+    //             <input width="100%" type="number" value="0.0" />
+    //           </td>
+    //         </tr>
+    //         <tr>
+    //           <th rowspan="6">
+    //             Both First & Corresponding Author are the same person(Only
+    //             Sathyabama Affiliation)
+    //           </th>
+
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="link" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="link" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //             </tr>
+    //           </tr>
+    //           <tr>
+    //             <th rowspan="2">
+    //               First & Corresponding Author are from Sathyabama
+    //             </th>
+    //           </tr>
+
+    //           <tr>
+    //             <td></td>
+    //             <td></td>
+    //             <td></td>
+    //             <td></td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <th rowspan="6">
+    //               First Author from Sathyabama & Corresponding Author from other
+    //               institute
+    //             </th>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+
+    //           <tr>
+    //             <th rowspan="2">
+    //               All Co-Authors (Excluding First and Corresponding Author,
+    //               Select the No of Co-Authors)
+    //             </th>
+    //           </tr>
+    //           <tr>
+    //             <td></td>
+    //             <td></td>
+    //             <td></td>
+    //             <td></td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <th>
+    //               <center>
+    //                 Research Papers Published in Journals with No Impact Factor
+    //                 during June 2020 to May 2024
+    //               </center>
+    //             </th>
+    //           </tr>
+    //           <tr>
+    //             <th rowspan="7">
+    //               Paper published only in Scopus Indexed/UGC CARE Journals (No
+    //               impact factor)
+    //             </th>
+    //           </tr>
+    //           <tr>
+    //             <th>Name of Journal</th>
+    //             <th>
+    //               Role (Select 1 for First/Corresponding Author & 2 for
+    //               co-author)
+    //             </th>
+    //             <th>DOI Link</th>
+    //             <th>Points</th>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <td>
+    //               <input width="100%" type="text-area" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //             <td>
+    //               <input type="link" />
+    //             </td>
+    //             <td>
+    //               <input width="100%" type="number" value="0.0" />
+    //             </td>
+    //           </tr>
+    //           <tr>
+    //             <th>
+    //               <center>Article ScoreCitations</center>
+    //             </th>
+    //             <tr>
+    //               <th>
+    //                 Average Citations as per WoS (Total Citations/No of articles
+    //                 published so far after joining Sathyabama)
+    //               </th>
+    //               <tr>
+    //                 <th>No Papers Published after joining Sathyabama</th>
+    //                 <th>Total Citations</th>
+    //                 <th>Average Citations</th>
+    //                 <th>H-index (as per WoS)</th>
+    //                 <th>Points</th>
+    //               </tr>
+    //               <tr>
+    //                 <td>
+    //                   <input width="100%" type="text-area" />
+    //                 </td>
+    //                 <td>
+    //                   <input width="100%" type="text-area" />
+    //                 </td>
+    //                 <td>
+    //                   <input width="100%" type="text-area" />
+    //                 </td>
+    //                 <td>
+    //                   <input width="100%" type="text-area" />
+    //                 </td>
+    //                 <td>
+    //                   <input width="100%" type="number" value="0.0" />
+    //                 </td>
+    //               </tr>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>Research Activities</center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Books Published/Edited/Guest Editor/Editor Published (in
+    //                   reputed publishing house) during June 2020 to May 2024
+    //                 </center>
+    //               </th>
+    //             </tr>
+
+    //             <tr>
+    //               <th>Name of Publisher</th>
+    //               <th>No Books Published/Edited/Guest Editor/Editor</th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Book Chapters Published (in reputed publishing house)
+    //                   during June 2020 to May 2024
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>Name of Publisher</th>
+    //               <th>No Book Chapters</th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Articles Published in Leading Magazines/Newsletters during
+    //                   June 2020 to May 2024
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>Name of Magazine/Newsletter</th>
+    //               <th>No Articles</th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Reviewer for Journals with Impact Factor during June 2020
+    //                   to May 2021
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>Name of Journal Reviewed</th>
+    //               <th>No Reveiws in that Journal</th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Product Patent if Granted Only (All Inventors) during June
+    //                   2020 to May 2021
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>Name of Product Patent</th>
+    //               <th> Choose 1 if you are awarded a product patent</th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Design Patent/Copyright if Granted Only (All Inventors)
+    //                   during June 2020 to May 2021
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>Name of design patent/Copyright</th>
+    //               <th>Role</th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Commercial Product Developed during June 2020 to May 2021
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>Name of Product Developed</th>
+    //               <th>No Products developed</th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Start Up from Institute during June 2020 to May 2021
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>Name of Start-Up</th>
+    //               <th> Choose 1 if you are a Start-up</th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Research Guidance (Full-Time PhD Scholar Guiding) during
+    //                   June 2020 to May 2021
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>No of Full-time Scholars currently pursuing PhD</th>
+    //               <th>Points alloted</th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>10</td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Research Guidance (Part-Time PhD Scholar Guiding) during
+    //                   June 2020 to May 2021
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>No of Part-time Scholars currently pursuing PhD</th>
+    //               <th>Points alloted</th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>5</td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Research Guidance (Full-Time Scholar Completed PhD) during
+    //                   June 2020 to May 2021
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>No of Full-time Scholars Awarded the Degree</th>
+    //               <th>Points alloted</th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>20</td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Research Guidance (Part-Time Scholar Completed PhD) during
+    //                   June 2020 to May 2021
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>No of Part-time Scholars Awarded the Degree</th>
+    //               <th>Points alloted</th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>10</td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Projects (As PI) (Based on amount received during June
+    //                   2020 to May 2021)
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>Name of Project and Funding Agency</th>
+    //               <th>
+    //                 Amount Recieved in Lakhs for the period June 2020 to May
+    //                 2021 (Enter 1.00 for 1 Lakh, 0.2 for twenty thousand)
+    //               </th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Projects (As Co-PI) (Based on amount received during June
+    //                   2020 to May 2021)
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>Name of Project and Funding Agency</th>
+    //               <th>
+    //                 Amount Recieved in Lakhs for the period June 2020 to May
+    //                 2021 (Enter 1.00 for 1 Lakh, 0.2 for twenty thousand)
+    //               </th>
+    //               <th>No of Investigators (inclusive of PI)</th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Projects (As Mentor/Supervisor for NPDF, UGC-Postdoc, RA,
+    //                   WoS-A,-B,-C, etc) (Based on amount received during June
+    //                   2020 to May 2021)
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>Name of Project and Funding Agency</th>
+    //               <th>
+    //                 Amount Recieved in Lakhs for the period June 2020 to May
+    //                 2021 (Enter 1.00 for 1 Lakh, 0.2 for twenty thousand)
+    //               </th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>
+    //                 <center>
+    //                   Fund Generated Through Consultancy during June 2020 to May
+    //                   2021
+    //                 </center>
+    //               </th>
+    //             </tr>
+    //             <tr>
+    //               <th>Name of Consultant Work</th>
+    //               <th>
+    //                 Amount Generated in Lakhs (Enter 1.00 for 1 Lakh, 0.2 for
+    //                 twenty thousand)
+    //               </th>
+    //               <th>Points Scored</th>
+    //               <th>Upload Proof</th>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //               <td>
+    //                 <input width="100%" type="number" value="0.0" />
+    //               </td>
+    //               <td>
+    //                 <input type="file" id="myfile" name="myfile" />
+    //               </td>
+    //             </tr>
+    //             <tr>
+    //               <th>Total Score B</th>
+    //               <td>
+    //                 <input width="100%" type="text-area" />
+    //               </td>
+    //             </tr>
+    //           </tr>
+    //         </tr>
+    //       </table>
+    //     </>
+    //   );

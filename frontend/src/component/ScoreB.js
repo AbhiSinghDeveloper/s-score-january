@@ -6493,16 +6493,22 @@ const ScoreB = (props) => {
                   <button onClick={onUploadconsultWork3}>Upload</button>
                 </TableCell>
               </TableRow>
-              <TableRow>
+              {/* <TableRow>
                 <TableCell colSpan={4}>Total Score B</TableCell>
                 <TableCell align='center'>{data.totalScore}</TableCell>
-              </TableRow>
+              </TableRow> */}
             </Table>
           </TableContainer>
           {props.edit !== undefined ? (
             <p>Please Check all the fields</p>
           ) : (
-            <button onClick={onSubmit}>Submit and Next</button>
+            <div style={{ display: 'flex', margin: '20px 0px', justifyContent: 'space-between' }}>
+              <button style={{backgroundColor: '#941134' , padding: '8px 20px', color: 'white',}} onClick={onSubmit}>Submit and Next</button>
+              <div>
+                <span>Total Score B: </span>
+                <span>{data.totalScore}</span>
+              </div>
+            </div>
           )}
         </>
       )}

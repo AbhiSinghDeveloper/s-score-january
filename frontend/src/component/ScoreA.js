@@ -435,6 +435,7 @@ const ScoreA = (props) => {
       ) : (
         <>
           <h2 align='center'>Score A</h2>
+          <div style={{textAlign: 'center'}}>
           <TableContainer component={Paper}>
             <Table sx={{ minWidth: 650 }} aria-label='simple table'>
               <TableHead>
@@ -966,12 +967,13 @@ const ScoreA = (props) => {
             </Table>
           </TableContainer>
           {props.edit === undefined ? (
-            <button onClick={onSubmit} value={ematscore.totalscore}>
+            <button style={{margin: '20px 0px', backgroundColor: '#941134' , padding: '8px 20px', color: 'white',}} onClick={onSubmit} value={ematscore.totalscore}>
               Submit and Next
             </button>
           ) : (
             <p>Please check all the fields</p>
           )}
+          </div>
         </>
       )}
     </>

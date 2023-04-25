@@ -5611,7 +5611,7 @@ const ScoreC = (props) => {
           {props.edit !== undefined ? (
             <p>Please check all fields</p>
           ) : (
-            <button onClick={onSubmit}>Submit and Next</button>
+            <button style={{backgroundColor: '#941134' , padding: '8px 20px', color: 'white',}} onClick={onSubmit}>Submit and Next</button>
           )}
         </>
       )}

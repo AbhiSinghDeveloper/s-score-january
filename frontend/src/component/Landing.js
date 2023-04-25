@@ -18,7 +18,9 @@ const Landing = () =>{
 return(
     <p align ="center" id="Landing">
    <h1> <h2>Welcome To SATHYABAMA Score </h2></h1>
-    <div padding ="25px"> 
+    <div padding ="25px" style={{
+       
+    }}> 
 <h2><select onChange={(e) =>
            setData({
              ...data,

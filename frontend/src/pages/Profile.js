@@ -146,7 +146,8 @@ export default function Profile() {
           display='flex'
           flexDirection='column'
           alignItems='center'
-          justifyContent='center'>
+          justifyContent='center'
+          >
           <img
             src='https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg'
             id='output'
@@ -157,154 +158,158 @@ export default function Profile() {
             <span className='glyphicon glyphicon-camera'></span>
           </label>
         </Box>
-        <TextField
-          id='outlined-basic'
-          variant='outlined'
-          label='First name'
-          onChange={onChangeName}
-          required
-          placeholder='Enter Your First Name'
-          fullWidth
-          margin='normal'
-          name='firstName'
-        />
-        <TextField
-          id='last-name'
-          label='Last Name'
-          required
-          onChange={onChangeName1}
-          variant='outlined'
-          placeholder='Enter Your Last Name'
-          fullWidth
-          margin='normal'
-          name='lastName'
-        />
-        <TextField
-          id='Employee Number'
-          label='Employee Number'
-          required
-          onChange={onChangeName2}
-          variant='outlined'
-          placeholder='Enter Employee Number'
-          fullWidth
-          margin='normal'
-          name='nickName'
-        />
-        <TextField
-          id='Phone Number'
-          label='Phone number'
-          variant='outlined'
-          required
-          onChange={onChangeName3}
-          placeholder='Phone number'
-          input
-          type='tel'
-          fullWidth
-          margin='normal'
-          name='nickName'
-        />
-        <TextField
-          id='Date of birth'
-          label='Birth Date'
-          required
-          onChange={onChangeName4}
-          variant='outlined'
-          placeholder='dd-mm-yyyy'
-          input
-          type='text'
-          fullWidth
-          margin='normal'
-          name='nickName'
-        />
-        <TextField
-          id='Name of Department & School/Research Centre'
-          label='Name of Department & School/Research Centre'
-          required
-          variant='outlined'
-          placeholder='Name of Department & School/Research Centre'
-          input
-          onChange={onChangeName5}
-          type='text'
-          fullWidth
-          margin='normal'
-          name='nickName'
-        />
-        <TextField
-          id='Date of joining'
-          label='Date of joining'
-          required
-          onChange={onChangeName6}
-          variant='outlined'
-          placeholder='dd-mm-yy'
-          input
-          type='text'
-          fullWidth
-          margin='normal'
-          name='nickName'
-        />
-        <TextField
-          id='Whether Awarded PhD'
-          label='Whether Awarded PhD'
-          required
-          onChange={onChangeName7}
-          variant='outlined'
-          placeholder='Whether Awarded PhD'
-          input
-          type='text'
-          fullWidth
-          margin='normal'
-          name='nickName'
-        />
-        <TextField
-          id='Year Awarded PhD'
-          label='Year Awarded PhD'
-          required
-          onChange={onChangeName8}
-          variant='outlined'
-          placeholder='Year Awarded PhD'
-          input
-          type='text'
-          fullWidth
-          margin='normal'
-          name='nickName'
-        />
-        {/* <TextField
-            id="Email id"
-            label="Email id"
+        <div style={{textAlign: 'center'}}>
+          <div style={{marginLeft: '100px', marginRight: '100px'}}>
+          <TextField
+            id='outlined-basic'
+            variant='outlined'
+            label='First name'
+            onChange={onChangeName}
             required
-            onChange={onChangeName9}
-            variant="outlined"
-            placeholder="Email id"
-            input
-            type="text"
+            placeholder='Enter Your First Name'
             fullWidth
-            margin="normal"
-            name="nickName"
-          /> */}
-        <TextField
-          id='Current Gross Salary'
-          label='Current Gross Salary'
-          required
-          onChange={onChangeName10}
-          variant='outlined'
-          placeholder='Current Gross Salary'
-          input
-          type='text'
-          fullWidth
-          margin='normal'
-        />
-        <TextField
-          id='Designation'
-          label='Designation'
-          required
-          onChange={onChangeName11}
-          variant='outlined'
-          placeholder='Enter Designation'
-          fullWidth
-          margin='normal'
-          name='nickName'
-        />
-        <button onClick={onSubmitProfile}>Submit and Next</button>
+            margin='normal'
+            name='firstName'
+          />
+          <TextField
+            id='last-name'
+            label='Last Name'
+            required
+            onChange={onChangeName1}
+            variant='outlined'
+            placeholder='Enter Your Last Name'
+            fullWidth
+            margin='normal'
+            name='lastName'
+          />
+          <TextField
+            id='Employee Number'
+            label='Employee Number'
+            required
+            onChange={onChangeName2}
+            variant='outlined'
+            placeholder='Enter Employee Number'
+            fullWidth
+            margin='normal'
+            name='nickName'
+          />
+          <TextField
+            id='Phone Number'
+            label='Phone number'
+            variant='outlined'
+            required
+            onChange={onChangeName3}
+            placeholder='Phone number'
+            input
+            type='tel'
+            fullWidth
+            margin='normal'
+            name='nickName'
+          />
+          <TextField
+            id='Date of birth'
+            label='Birth Date'
+            required
+            onChange={onChangeName4}
+            variant='outlined'
+            placeholder='dd-mm-yyyy'
+            input
+            type='text'
+            fullWidth
+            margin='normal'
+            name='nickName'
+          />
+          <TextField
+            id='Name of Department & School/Research Centre'
+            label='Name of Department & School/Research Centre'
+            required
+            variant='outlined'
+            placeholder='Name of Department & School/Research Centre'
+            input
+            onChange={onChangeName5}
+            type='text'
+            fullWidth
+            margin='normal'
+            name='nickName'
+          />
+          <TextField
+            id='Date of joining'
+            label='Date of joining'
+            required
+            onChange={onChangeName6}
+            variant='outlined'
+            placeholder='dd-mm-yy'
+            input
+            type='text'
+            fullWidth
+            margin='normal'
+            name='nickName'
+          />
+          <TextField
+            id='Whether Awarded PhD'
+            label='Whether Awarded PhD'
+            required
+            onChange={onChangeName7}
+            variant='outlined'
+            placeholder='Whether Awarded PhD'
+            input
+            type='text'
+            fullWidth
+            margin='normal'
+            name='nickName'
+          />
+          <TextField
+            id='Year Awarded PhD'
+            label='Year Awarded PhD'
+            required
+            onChange={onChangeName8}
+            variant='outlined'
+            placeholder='Year Awarded PhD'
+            input
+            type='text'
+            fullWidth
+            margin='normal'
+            name='nickName'
+          />
+          {/* <TextField
+              id="Email id"
+              label="Email id"
+              required
+              onChange={onChangeName9}
+              variant="outlined"
+              placeholder="Email id"
+              input
+              type="text"
+              fullWidth
+              margin="normal"
+              name="nickName"
+            /> */}
+          <TextField
+            id='Current Gross Salary'
+            label='Current Gross Salary'
+            required
+            onChange={onChangeName10}
+            variant='outlined'
+            placeholder='Current Gross Salary'
+            input
+            type='text'
+            fullWidth
+            margin='normal'
+          />
+          <TextField
+            id='Designation'
+            label='Designation'
+            required
+            onChange={onChangeName11}
+            variant='outlined'
+            placeholder='Enter Designation'
+            fullWidth
+            margin='normal'
+            name='nickName'
+          />
+          </div>
+          <button style={{margin: '20px 0px', backgroundColor: '#941134' , padding: '8px 20px', color: 'white',}} onClick={onSubmitProfile}>Submit and Next</button>
+        </div>
       </p>
     </>
   );

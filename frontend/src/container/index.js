@@ -35,7 +35,7 @@ const SignInOutContainer = () => {
   }
 
   return (
-    <div style={{}}>
+    <div style={{backgroundImage: 'url(https://www.sathyabama.ac.in/sites/default/files/inline-images/DJI_0105-New-Low.jpg)', backgroundSize: 'cover', height: '89vh', marginTop: '-20px'}}>
     <Paper elevation={20} style={paperStyle}>
       <Tabs
         value={value}
